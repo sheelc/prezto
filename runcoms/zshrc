@@ -11,3 +11,9 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+alias mntrec='gocryptfs ~/Dropbox/records ~/Desktop/records'
+alias umntrec='umount ~/Desktop/records'
+alias pbcopy='xclip -selection clipboard'
+alias pbpaste='xclip -selection clipboard -o'
+alias open='xdg-open'
+alias cls="echo -ne '\033c'"
